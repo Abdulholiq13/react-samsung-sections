@@ -48,7 +48,7 @@ const Products = () => {
 		},
 	];
 	return (
-		<section className='w-full'>
+		<section className='w-full mb-10'>
 			<div className='container flex flex-col items-center justify-center'>
 				<h2 className='text-4xl font-bold mb-4'>Shop all latest offers and innovations</h2>
 				<a className='text-lg font-semibold mb-4' href='#'>
@@ -92,7 +92,7 @@ const Products = () => {
 								</small>
 							</div>
 
-							<button className='bg-black transition-all duration-300 ease-in-out text-white p-3 rounded-full text-center text-xs mt-3 absolute bottom-[-50px] group-hover:bottom-[10px] font-bold'>
+							<button className='bg-black transition-all duration-300 ease-in-out text-white p-3 px-6 rounded-full text-center text-sm mt-3 absolute bottom-[-50px] group-hover:bottom-[10px] font-bold hover:opacity-70'>
 								Buy now
 							</button>
 						</li>
