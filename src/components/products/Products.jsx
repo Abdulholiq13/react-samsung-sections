@@ -65,7 +65,7 @@ const Products = () => {
 						</li>
 					))}
 				</ul>
-				<ul className='mt-5 flex flex-wrap items-center gap-6'>
+				<ul className='mt-5 flex flex-wrap justify-center items-center gap-6'>
 					{products?.map((product, index) => (
 						<li
 							key={index}
