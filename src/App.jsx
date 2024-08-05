@@ -4,7 +4,13 @@ import Props from './components/props/Props';
 import Zflip6 from './assets/galaxy-ai.jpg';
 
 function App() {
-	const link1 = ['Galaxy Z Flip6', 'Galaxy Z Fold6', 'Galaxy Watch Ultra', 'Galaxy Buds3 Pro', 'Galaxy Experience'];
+	const link1 = [
+		'Galaxy Z Flip6',
+		'Galaxy Z Fold6',
+		'Galaxy Watch Ultra',
+		'Galaxy Buds3 Pro',
+		'Galaxy Experience',
+	];
 	const link2 = ['Samsung Neo QLED 8k', 'TV + Soundbar bundles', 'Q990D'];
 	const link3 = ['Bespoke Appliances', 'Bespoke Refrigerators', 'Bespoke Laundry'];
 	return (

@@ -27,8 +27,11 @@ const Header = () => {
 				</a>
 				<ul className='flex items-center gap-[15px] text-sm'>
 					{navLinks?.map((link, index) => (
-						<li key={index}>
-							<a className='font-bold' href='#'>
+						<li
+							key={index}
+							className='transition-all ease-in-out duration-200 p-2 rounded-full hover:text-white hover:bg-black cursor-pointer'
+						>
+							<a className='font-semibold' href='#'>
 								{link}
 							</a>
 						</li>
@@ -36,9 +39,9 @@ const Header = () => {
 				</ul>
 
 				<div className='flex gap-5 ml-5'>
-					<ul className='flex items-center text-[14px] font-bold gap-[15px]'>
+					<ul className='flex items-center text-[14px] font-semibold gap-[15px]'>
 						{additionalServices?.map((service, index) => (
-							<li key={index}>
+							<li key={index} className='p-2 rounded-full hover:text-white hover:bg-black cursor-pointer'>
 								<a href='#'>{service}</a>
 							</li>
 						))}

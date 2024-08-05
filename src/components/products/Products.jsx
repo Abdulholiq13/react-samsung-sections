@@ -51,14 +51,17 @@ const Products = () => {
 		<section className='w-full mb-10'>
 			<div className='container flex flex-col items-center justify-center'>
 				<h2 className='text-4xl font-bold mb-4'>Shop all latest offers and innovations</h2>
-				<a className='text-lg font-semibold mb-4' href='#'>
+				<a
+					className='group text-lg font-semibold mb-4 relative text-black hover:text-black cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1.5px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1.5px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'
+					href='#'
+				>
 					View all offers
-					<hr className='h-[2px] bg-black border-0 dark:bg-gray-700' />
 				</a>
-				<ul className='flex items-center gap-4'>
+
+				<ul className='flex items-center gap-4 '>
 					{links?.map((link, index) => (
-						<li className='text-lg font-semibold' key={index}>
-							{link}
+						<li className='text-lg font-semibold hover:opacity-70 cursor-pointer' key={index}>
+							<a href='#'>{link}</a>
 						</li>
 					))}
 				</ul>
